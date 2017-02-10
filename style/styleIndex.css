@@ -6,8 +6,8 @@ body{
 #wrapper{
 	height: 100%;
 	width: 100%;
-	/*min-width: 1330px;
-	max-width: 1366px;*/
+	min-width: 870px;
+	max-width: 1366px;
 }
 
 .clearfix:before,  
@@ -264,14 +264,15 @@ background-color: rgba(135,135,135, 0.8);
     transition: width .3s ease-in-out;
 }
 
-.navbar li a:hover:after,
-.navbar li a:focus:after {
+.navbar li a:hover:after {
     width: 100%;
 }
 
-.navbar li a:hover {
-	color: #c6534f;
+.top-menu a:hover,
+.top-menu a.active {
+    color: #c6534f;
 }
+
 
 /*Resume*/
 #resume{
