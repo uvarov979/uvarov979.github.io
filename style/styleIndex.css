@@ -6,6 +6,7 @@ body{
 #wrapper{
 	height: 100%;
 	width: 100%;
+	margin: 0 auto;
 	min-width: 870px;
 	max-width: 1366px;
 }
@@ -47,7 +48,7 @@ body{
 #back-top {
 position: fixed;
 bottom: 40px;
-margin-left: 95%;
+margin-left: 94%;
 }
 #back-top a {
 width: 30px;
