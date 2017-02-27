@@ -7,8 +7,9 @@ body{
 	height: 100%;
 	width: 100%;
 	margin: 0 auto;
-	min-width: 870px;
+	min-width: 440px;
 	max-width: 1366px;
+	position: relative;
 }
 
 .clearfix:before,  
@@ -48,7 +49,8 @@ body{
 #back-top {
 position: fixed;
 bottom: 40px;
-margin-left: 94%;
+margin-left: 92%;
+z-index: 888;
 }
 #back-top a {
 width: 30px;
@@ -169,7 +171,8 @@ background-color: rgba(135,135,135, 0.8);
 /*Navigation*/
 
 #navigation {
-	width: 100%;
+	max-width: 1366px;
+	
 	background-color: #ffffff;
 	border-bottom: 1px solid #efefef;
 	z-index: 333;
@@ -180,8 +183,7 @@ background-color: rgba(135,135,135, 0.8);
         }
 #navigation.fixed {
    position:fixed;
-   top:0; left:0;
-   width:100%;
+   top:0;    width:100%;
         }
 
 .navHeader{
@@ -599,10 +601,12 @@ padding-bottom: 100px;
 
 .left{
 	text-align: left;
+	padding-left: 150px;
 }
 
 .right{
 	text-align: right;
+	padding-right: 150px;
 }
 
 .imgMob{
