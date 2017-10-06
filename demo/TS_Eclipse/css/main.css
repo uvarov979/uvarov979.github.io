@@ -859,6 +859,18 @@ box-shadow: 0px 0px 4px 0px rgba(203,14,23,1);
 	margin-top: 60px;
 }
 
+.advantages-box .box {
+	transition: all .4s ease;
+}
+
+.advantages-box .box:hover  p {
+	color: #cb0e17;
+}
+
+.advantages-box .box:hover  img {
+	transform: scale(1.05);
+}
+
 .advantages-box p {
 	font-family: "RobotoBold", sans-serif;
 	font-size: 30px;
@@ -877,6 +889,11 @@ box-shadow: 0px 0px 4px 0px rgba(203,14,23,1);
 	font-size: 20px;
 	font-family: "RobotoRegular", sans-serif;
 	margin: 23px 0;
+	transition: color .4s ease;
+}
+
+.advantages-box .advantages-item img {
+	transition: transform .4s ease;
 }
 
 .advantages-box .button {
@@ -1184,10 +1201,19 @@ box-shadow: 0px 0px 4px 0px rgba(203,14,23,1);
 	margin-bottom: 50px;
 }
 
+.carousel-staff .carousel-staff-item:hover h6 {
+	color: #cb0e17;
+}
+
+.carousel-staff .carousel-staff-item:hover img {
+	transform: scale(0.9);
+}
+
 .carousel-staff .carousel-staff-item img {
 	max-height: 410px;
 	width: auto;
 	margin: 0 auto;
+	transition: transform .4s ease;
 }
 
 .carousel-staff .carousel-staff-item h6 {
@@ -1195,6 +1221,7 @@ box-shadow: 0px 0px 4px 0px rgba(203,14,23,1);
 	margin: 10px 0 0 60px;
 	font-family: "RobotoRegular", sans-serif;
 	font-weight: 500;
+	transition: color .4s ease;
 }
 
 .carousel-staff .carousel-staff-item p {
@@ -1246,6 +1273,18 @@ box-shadow: 0px 0px 4px 0px rgba(203,14,23,1);
 	border: 1px solid #000;
 	padding: 0 20px;
 	margin: 0 18px;
+		-webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.carousel-review .carousel-review-item:hover {
+	border: 1px solid #cb0e17;
+}
+
+.carousel-review .carousel-review-item:hover h6 {
+	margin-left: 30px;
+	color: #cb0e17;
 }
 
 .carousel-review .carousel-review-item h6 {
@@ -1253,6 +1292,9 @@ box-shadow: 0px 0px 4px 0px rgba(203,14,23,1);
 	margin: 10px 0 0 0;
 	font-family: "RobotoRegular", sans-serif;
 	font-weight: 500;
+	-webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .carousel-review .carousel-review-item p {
@@ -1297,7 +1339,7 @@ footer iframe {
 	transition: all .5s ease;
 }
 
-.footer:hover .footer::before {
+.footer:hover::before {
 	width: 100%;
 	margin-left: -50%;
 }
